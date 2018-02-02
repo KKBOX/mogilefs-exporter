@@ -9,17 +9,17 @@ Prometheus Exporter for MogileFS
 ## Installation
 
 ```bash
-    git clone https://github.com/KKBOX/mogilefs-exporter.git
-    cd mogilefs-exporter
-    gem install bundler
-    bundle install
+git clone https://github.com/KKBOX/mogilefs-exporter.git
+cd mogilefs-exporter
+gem install bundler
+bundle install
 ```
 
 ## Running
 
 ```bash
-    export MOGILEFS_HOSTS="HOST:PORT[[,HOST:PORT]...]"
-    puma -p 9413
+export MOGILEFS_HOSTS="HOST:PORT[[,HOST:PORT]...]"
+puma -p 9413
 ```
 
 ## Using Docker
