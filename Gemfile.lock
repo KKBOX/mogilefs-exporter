@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.2.1)
+    mogilefs-client (3.11.1)
+    prometheus-client (0.7.1)
+      quantile (~> 0.2.0)
+    puma (3.11.2)
+    quantile (0.2.0)
+    rack (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv (~> 2.2.1)
+  mogilefs-client (~> 3.11.1)
+  prometheus-client (~> 0.7.1)
+  puma (~> 3.11.2)
+  rack (~> 2.0.3)
+
+BUNDLED WITH
+   1.16.1
