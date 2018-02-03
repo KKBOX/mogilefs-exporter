@@ -1,5 +1,5 @@
 require 'dotenv'
-require_relative '../app/exporter'
+require_relative '../app/collector'
 
 Dotenv.load
 
