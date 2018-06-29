@@ -13,9 +13,10 @@ end
 
 module MogileFS
   HOST_STATUS = {
-    'alive' => 1,
-    'down'  => 0,
-    'dead'  => -1,
+    'readonly' => 3,
+    'alive'    => 1,
+    'down'     => 0,
+    'dead'     => -1,
   }
 
   DEVICE_STATUS = {
