@@ -5,7 +5,7 @@ GEM
     mogilefs-client (3.11.1)
     prometheus-client (0.7.1)
       quantile (~> 0.2.0)
-    puma (3.11.2)
+    puma (3.12.4)
     quantile (0.2.0)
     rack (2.0.6)
 
@@ -16,7 +16,7 @@ DEPENDENCIES
   dotenv (~> 2.2.1)
   mogilefs-client (~> 3.11.1)
   prometheus-client (~> 0.7.1)
-  puma (~> 3.11.2)
+  puma (~> 3.12.4)
   rack (~> 2.0.6)
 
 BUNDLED WITH
