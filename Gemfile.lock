@@ -3,9 +3,11 @@ GEM
   specs:
     dotenv (2.2.1)
     mogilefs-client (3.11.1)
+    nio4r (2.5.8)
     prometheus-client (0.7.1)
       quantile (~> 0.2.0)
-    puma (3.12.6)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     quantile (0.2.0)
     rack (2.1.4)
 
@@ -16,7 +18,7 @@ DEPENDENCIES
   dotenv (~> 2.2.1)
   mogilefs-client (~> 3.11.1)
   prometheus-client (~> 0.7.1)
-  puma (~> 3.12.6)
+  puma (~> 4.3.11)
   rack (~> 2.1.4)
 
 BUNDLED WITH
