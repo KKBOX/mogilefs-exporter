@@ -6,4 +6,4 @@ gem 'prometheus-client', '~> 0.7.1'
 
 gem 'dotenv', '~> 2.2.1',  groups: [:development, :test]
 
-gem 'puma', '~> 5.6.7'
+gem 'puma', '~> 5.6.8'
